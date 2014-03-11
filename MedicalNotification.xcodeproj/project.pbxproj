@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7588D4D518CF7004002EF088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588D4D418CF7004002EF088 /* Foundation.framework */; };
+		7588D4D718CF7004002EF088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588D4D618CF7004002EF088 /* CoreGraphics.framework */; };
+		7588D4D918CF7004002EF088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588D4D818CF7004002EF088 /* UIKit.framework */; };
+		7588D4DF18CF7004002EF088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7588D4DD18CF7004002EF088 /* InfoPlist.strings */; };
+		7588D4E118CF7004002EF088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7588D4E018CF7004002EF088 /* main.m */; };
+		7588D4E518CF7004002EF088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7588D4E418CF7004002EF088 /* AppDelegate.m */; };
+		7588D4E718CF7004002EF088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7588D4E618CF7004002EF088 /* Images.xcassets */; };
+		7588D4EE18CF7004002EF088 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588D4ED18CF7004002EF088 /* XCTest.framework */; };
+		7588D4EF18CF7004002EF088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588D4D418CF7004002EF088 /* Foundation.framework */; };
+		7588D4F018CF7004002EF088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7588D4D818CF7004002EF088 /* UIKit.framework */; };
+		7588D4F818CF7004002EF088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7588D4F618CF7004002EF088 /* InfoPlist.strings */; };
+		7588D4FA18CF7004002EF088 /* MedicalNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7588D4F918CF7004002EF088 /* MedicalNotificationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7588D4F118CF7004002EF088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7588D4C918CF7004002EF088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7588D4D018CF7004002EF088;
+			remoteInfo = MedicalNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7588D4D118CF7004002EF088 /* MedicalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7588D4D418CF7004002EF088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7588D4D618CF7004002EF088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7588D4D818CF7004002EF088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7588D4DC18CF7004002EF088 /* MedicalNotification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicalNotification-Info.plist"; sourceTree = "<group>"; };
+		7588D4DE18CF7004002EF088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7588D4E018CF7004002EF088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7588D4E218CF7004002EF088 /* MedicalNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicalNotification-Prefix.pch"; sourceTree = "<group>"; };
+		7588D4E318CF7004002EF088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7588D4E418CF7004002EF088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7588D4E618CF7004002EF088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7588D4EC18CF7004002EF088 /* MedicalNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7588D4ED18CF7004002EF088 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7588D4F518CF7004002EF088 /* MedicalNotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicalNotificationTests-Info.plist"; sourceTree = "<group>"; };
+		7588D4F718CF7004002EF088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7588D4F918CF7004002EF088 /* MedicalNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalNotificationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7588D4CE18CF7004002EF088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7588D4D718CF7004002EF088 /* CoreGraphics.framework in Frameworks */,
+				7588D4D918CF7004002EF088 /* UIKit.framework in Frameworks */,
+				7588D4D518CF7004002EF088 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7588D4E918CF7004002EF088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7588D4EE18CF7004002EF088 /* XCTest.framework in Frameworks */,
+				7588D4F018CF7004002EF088 /* UIKit.framework in Frameworks */,
+				7588D4EF18CF7004002EF088 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7588D4C818CF7004002EF088 = {
+			isa = PBXGroup;
+			children = (
+				7588D4DA18CF7004002EF088 /* MedicalNotification */,
+				7588D4F318CF7004002EF088 /* MedicalNotificationTests */,
+				7588D4D318CF7004002EF088 /* Frameworks */,
+				7588D4D218CF7004002EF088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7588D4D218CF7004002EF088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7588D4D118CF7004002EF088 /* MedicalNotification.app */,
+				7588D4EC18CF7004002EF088 /* MedicalNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7588D4D318CF7004002EF088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7588D4D418CF7004002EF088 /* Foundation.framework */,
+				7588D4D618CF7004002EF088 /* CoreGraphics.framework */,
+				7588D4D818CF7004002EF088 /* UIKit.framework */,
+				7588D4ED18CF7004002EF088 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7588D4DA18CF7004002EF088 /* MedicalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				7588D4E318CF7004002EF088 /* AppDelegate.h */,
+				7588D4E418CF7004002EF088 /* AppDelegate.m */,
+				7588D4E618CF7004002EF088 /* Images.xcassets */,
+				7588D4DB18CF7004002EF088 /* Supporting Files */,
+			);
+			path = MedicalNotification;
+			sourceTree = "<group>";
+		};
+		7588D4DB18CF7004002EF088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7588D4DC18CF7004002EF088 /* MedicalNotification-Info.plist */,
+				7588D4DD18CF7004002EF088 /* InfoPlist.strings */,
+				7588D4E018CF7004002EF088 /* main.m */,
+				7588D4E218CF7004002EF088 /* MedicalNotification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7588D4F318CF7004002EF088 /* MedicalNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7588D4F918CF7004002EF088 /* MedicalNotificationTests.m */,
+				7588D4F418CF7004002EF088 /* Supporting Files */,
+			);
+			path = MedicalNotificationTests;
+			sourceTree = "<group>";
+		};
+		7588D4F418CF7004002EF088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7588D4F518CF7004002EF088 /* MedicalNotificationTests-Info.plist */,
+				7588D4F618CF7004002EF088 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7588D4D018CF7004002EF088 /* MedicalNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7588D4FD18CF7004002EF088 /* Build configuration list for PBXNativeTarget "MedicalNotification" */;
+			buildPhases = (
+				7588D4CD18CF7004002EF088 /* Sources */,
+				7588D4CE18CF7004002EF088 /* Frameworks */,
+				7588D4CF18CF7004002EF088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalNotification;
+			productName = MedicalNotification;
+			productReference = 7588D4D118CF7004002EF088 /* MedicalNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7588D4EB18CF7004002EF088 /* MedicalNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7588D50018CF7004002EF088 /* Build configuration list for PBXNativeTarget "MedicalNotificationTests" */;
+			buildPhases = (
+				7588D4E818CF7004002EF088 /* Sources */,
+				7588D4E918CF7004002EF088 /* Frameworks */,
+				7588D4EA18CF7004002EF088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7588D4F218CF7004002EF088 /* PBXTargetDependency */,
+			);
+			name = MedicalNotificationTests;
+			productName = MedicalNotificationTests;
+			productReference = 7588D4EC18CF7004002EF088 /* MedicalNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7588D4C918CF7004002EF088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Andrei Constantinescu";
+				TargetAttributes = {
+					7588D4EB18CF7004002EF088 = {
+						TestTargetID = 7588D4D018CF7004002EF088;
+					};
+				};
+			};
+			buildConfigurationList = 7588D4CC18CF7004002EF088 /* Build configuration list for PBXProject "MedicalNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7588D4C818CF7004002EF088;
+			productRefGroup = 7588D4D218CF7004002EF088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7588D4D018CF7004002EF088 /* MedicalNotification */,
+				7588D4EB18CF7004002EF088 /* MedicalNotificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7588D4CF18CF7004002EF088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7588D4DF18CF7004002EF088 /* InfoPlist.strings in Resources */,
+				7588D4E718CF7004002EF088 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7588D4EA18CF7004002EF088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7588D4F818CF7004002EF088 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7588D4CD18CF7004002EF088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7588D4E518CF7004002EF088 /* AppDelegate.m in Sources */,
+				7588D4E118CF7004002EF088 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7588D4E818CF7004002EF088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7588D4FA18CF7004002EF088 /* MedicalNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7588D4F218CF7004002EF088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7588D4D018CF7004002EF088 /* MedicalNotification */;
+			targetProxy = 7588D4F118CF7004002EF088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7588D4DD18CF7004002EF088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7588D4DE18CF7004002EF088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7588D4F618CF7004002EF088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7588D4F718CF7004002EF088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7588D4FB18CF7004002EF088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7588D4FC18CF7004002EF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7588D4FE18CF7004002EF088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalNotification/MedicalNotification-Prefix.pch";
+				INFOPLIST_FILE = "MedicalNotification/MedicalNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7588D4FF18CF7004002EF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalNotification/MedicalNotification-Prefix.pch";
+				INFOPLIST_FILE = "MedicalNotification/MedicalNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7588D50118CF7004002EF088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedicalNotification.app/MedicalNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalNotification/MedicalNotification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MedicalNotificationTests/MedicalNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7588D50218CF7004002EF088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedicalNotification.app/MedicalNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalNotification/MedicalNotification-Prefix.pch";
+				INFOPLIST_FILE = "MedicalNotificationTests/MedicalNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7588D4CC18CF7004002EF088 /* Build configuration list for PBXProject "MedicalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7588D4FB18CF7004002EF088 /* Debug */,
+				7588D4FC18CF7004002EF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7588D4FD18CF7004002EF088 /* Build configuration list for PBXNativeTarget "MedicalNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7588D4FE18CF7004002EF088 /* Debug */,
+				7588D4FF18CF7004002EF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7588D50018CF7004002EF088 /* Build configuration list for PBXNativeTarget "MedicalNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7588D50118CF7004002EF088 /* Debug */,
+				7588D50218CF7004002EF088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7588D4C918CF7004002EF088 /* Project object */;
+}
